@@ -1,12 +1,39 @@
-body {
-    background-color: #000000;
-    color: white;
     /* 
     Verde: #C1FF72
     Rosa: #F7ADC1
     */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-strong {
+body {
+    box-sizing: border-box;
+    height: 100vh; /* 100% da altura do viewport*/
+    background-color: #000000;
+    color: white;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+}
+
+.titulo-destaque {
     color: #C1FF72;
 }
